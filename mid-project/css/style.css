@@ -6,3 +6,23 @@
     src: url('../fonts/roboto-v20-latin-regular.woff2') format('woff2'),
          url('../fonts/roboto-v20-latin-regular.woff') format('woff');
 }
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f2ce97;
+    font-size: 16px;
+    line-height: 1.4;
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+.box {
+    display: flex;
+    width: 900px;
+    margin: 0;
+    background-color: #fff;
+    box-shadow: 0 15px 15px 3px rgba(0, 0, 0, 0.3);
+}
